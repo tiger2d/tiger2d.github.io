@@ -10,14 +10,10 @@ body {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: -0.6499999761581421px;
 }
 
 #header .top {
@@ -26,20 +22,26 @@ body {
 
 #header .content {
   vertical-align: baseline;
-  color:#FFF;
   font-size: 24px;
   color: rgb(208, 228, 248);
   font-weight: normal;
   text-align:center;
-  padding: 10% 0;
+  padding: 1% 0;
 }
 
 #header .content h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 52px;
-  color:#FFF;
+  color:#0b6623;
   font-weight: bold;
 }
+#header .content h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:#0b6623;
+  font-weight: bold;
+}
+
 
 ul.actions {
   cursor: default;
