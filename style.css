@@ -5,7 +5,7 @@ body {
 #header {
   background: #fff700;
   height: 100vh;
-  min-height: 35em;
+  min-height: 50em;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -15,24 +15,21 @@ body {
   -ms-justify-content: center;
   justify-content: center;
 }
-
-#header .top {
-  padding: 10% 0;
-}
-
 #header .content {
   vertical-align: baseline;
   font-size: 24px;
   color: rgb(208, 228, 248);
   font-weight: normal;
   text-align:center;
-  padding: 1% 0;
 }
-
 #header .content h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  color:#0b6623;
+  color:#fff700;
+  height: 1.85em;
+  line-height: 1.95em;
+background-color: #0b6623;
+box-shadow: inset 0 0 0 2px #e6e6e6;
   font-weight: bold;
 }
 #header .content h2 {
